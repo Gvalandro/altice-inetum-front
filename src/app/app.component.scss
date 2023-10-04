@@ -1,0 +1,58 @@
+.container {
+  padding: 20px;
+}
+
+.row {
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+
+  input {
+    width: 300px;
+    padding: 0 8px;
+  }
+
+  button {
+    width: 40px;
+    margin-left: 4px;
+
+    background-color: #55e6c1;
+    border: 1px solid #2c3a47;
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    &:active {
+      background-color: #9aecdb;
+    }
+  }
+}
+
+.nValue-button {
+  padding: 20px;
+
+  background-color: #55e6c1;
+  border: 1px solid #2c3a47;
+  border-radius: 4px;
+}
+
+.sequence {
+  list-style: none;
+
+  margin-top: 80px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+
+  li {
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 32px;
+  }
+}
